@@ -1,5 +1,5 @@
 # 构建目录
-build/       # CMake/Ninja 等构建目录
+build/*      # build下的文件
 bin/         # 二进制输出目录
 obj/         # 中间对象文件目录
 Debug/       # IDE 调试目录
