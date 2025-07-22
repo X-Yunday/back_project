@@ -1,3 +1,21 @@
+# 构建目录
+build/       # CMake/Ninja 等构建目录
+bin/         # 二进制输出目录
+obj/         # 中间对象文件目录
+Debug/       # IDE 调试目录
+Release/     # IDE 发布目录
+x64/         # 平台相关构建目录
+
+
+# 依赖和缓存
+.vscode/     # VS Code 配置
+.idea/       # JetBrains IDE 配置
+*.sln        # Visual Studio 解决方案
+*.vcxproj*   # Visual Studio 项目文件
+*.user       # IDE 用户设置
+*.cache      # 编译缓存
+
+
 # 编译生成文件
 *.o          # 目标文件
 *.obj        # 对象文件
@@ -8,25 +26,12 @@
 *.lib        # Windows 库文件
 *.pdb        # 调试符号文件
 
-# 构建目录
-build/       # CMake/Ninja 等构建目录
-bin/         # 二进制输出目录
-obj/         # 中间对象文件目录
-Debug/       # IDE 调试目录
-Release/     # IDE 发布目录
-x64/         # 平台相关构建目录
 
-# 依赖和缓存
-.vscode/     # VS Code 配置
-.idea/       # JetBrains IDE 配置
-*.sln        # Visual Studio 解决方案
-*.vcxproj*   # Visual Studio 项目文件
-*.user       # IDE 用户设置
-*.cache      # 编译缓存
 
 # 系统文件
 .DS_Store    # macOS 元数据
 Thumbs.db    # Windows 缩略图
+
 
 # 日志和测试输出
 *.log        # 日志文件
